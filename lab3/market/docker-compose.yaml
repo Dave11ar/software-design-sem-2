@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  stocks-service:
+    build: .
+    command: bin/app
+    ports:
+      - "8080:8080"
